@@ -1,0 +1,14 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ENOENT",
+    "err": {
+      "name": "pnpm",
+      "message": "not found: node",
+      "code": "ENOENT",
+      "stack": "pnpm: not found: node\n    at getNotFoundError (C:\\snapshot\\dist\\pnpm.cjs)\n    at Function.whichSync [as sync] (C:\\snapshot\\dist\\pnpm.cjs)\n    at getCommandAbsolutePathSync (C:\\snapshot\\dist\\pnpm.cjs)\n    at Object.sync (C:\\snapshot\\dist\\pnpm.cjs)\n    at getSystemNodeVersionNonCached (C:\\snapshot\\dist\\pnpm.cjs)\n    at getSystemNodeVersionNonCached (C:\\snapshot\\dist\\pnpm.cjs)\n    at checkPackage (C:\\snapshot\\dist\\pnpm.cjs)\n    at packageIsInstallable (C:\\snapshot\\dist\\pnpm.cjs)\n    at tryReadProjectManifest (C:\\snapshot\\dist\\pnpm.cjs)\n    at async handler (C:\\snapshot\\dist\\pnpm.cjs)"
+    }
+  }
+}
